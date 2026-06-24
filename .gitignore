@@ -1,0 +1,19 @@
+versions
+handofs
+.claude
+CLAUDE.md
+scripts
+notes
+articles
+article-diff.aux
+article-diff.log
+article-diff.pdf
+article-diff.tex
+article-prev.tex
+explanations
+article.log
+make-diff.sh
+
+# Diagnostic / probe dirs in runs/test*/eval/ — keep the canonical eval_final only
+runs/**/eval/_probe_*/
+runs/**/eval/_probe_*

@@ -1,0 +1,16 @@
+\documentclass[tikz,border=1pt]{standalone}
+\usepackage{tikz}
+\begin{document}
+\begin{tikzpicture}
+  % Back-left card (rotated slightly counter-clockwise)
+  \begin{scope}[shift={(-2.5mm,0.4mm)}, rotate=10]
+    \draw[line width=0.4pt, fill=gray!12, gray!65, rounded corners=0.3mm] (-2mm,-1.5mm) rectangle (2mm,1.5mm);
+  \end{scope}
+  % Front-center card (no rotation, fully visible on top)
+  \draw[line width=0.4pt, fill=gray!22, gray!65, rounded corners=0.3mm] (-2mm,-1.5mm) rectangle (2mm,1.5mm);
+  % Back-right card (rotated slightly clockwise)
+  \begin{scope}[shift={(2.5mm,0.4mm)}, rotate=-10]
+    \draw[line width=0.4pt, fill=gray!12, gray!65, rounded corners=0.3mm] (-2mm,-1.5mm) rectangle (2mm,1.5mm);
+  \end{scope}
+\end{tikzpicture}
+\end{document}

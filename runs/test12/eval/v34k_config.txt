@@ -1,0 +1,12 @@
+=== test12 article-grade config (locked in with --pca-init) ===
+
+SAM segmentation: previous config (see prior v34k_config.txt history or git)
+Aggregation: --score-thresh 0.9 --vis-thresh 0.3
+Eval: evaluate_lesion_simicp.py --pca-init  <-- CRITICAL
+
+Final metrics:
+  AD     = 0.118 mm
+  HD     = 0.852 mm
+  HD90   = 0.194 mm
+  area   = 832.71 mm² (GT 814.18, diff +2.28%)
+  scale_recon_to_mm = 117.809 (init area-ratio = 116.490)

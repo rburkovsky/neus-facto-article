@@ -1,0 +1,8 @@
+{
+  "approach": "v34g = v34f + visibility filter (lesion \u2229 ever-visible-faces)",
+  "n_lesion_before_vis": 16410,
+  "n_lesion_after_vis": 14643,
+  "area_before": 0.03944348965142128,
+  "area_after": 0.03648895977881164,
+  "score_thresh": 0.3
+}

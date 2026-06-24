@@ -1,0 +1,34 @@
+{
+  "pre_scale_s0": 159.17637375596522,
+  "icp_refinement_scale": 1.0000000000000002,
+  "total_scale_recon_to_mm": 159.17637375596524,
+  "A_det_mm2_after_alignment": 814.1772377043225,
+  "A_gt_mm2": 814.1772348222818,
+  "area_diff_mm2": 2.882040689655696e-06,
+  "area_pct_err": 3.539819791552863e-07,
+  "hausdorff_det_to_gt": {
+    "RMS": 1.4391957521438599,
+    "diag_mesh_0": 43.74898910522461,
+    "diag_mesh_1": 46.173183525827056,
+    "max": 6.823929786682129,
+    "mean": 0.9360431432723999,
+    "min": 9.924398000293877e-06,
+    "n_samples": 20000.0
+  },
+  "hausdorff_gt_to_det": {
+    "RMS": 0.9288229942321777,
+    "diag_mesh_0": 46.17318344116211,
+    "diag_mesh_1": 43.74898939147205,
+    "max": 4.379349708557129,
+    "mean": 0.5899902582168579,
+    "min": 3.853087764582597e-05,
+    "n_samples": 6449.0
+  },
+  "our_open3d_results": {
+    "scale_recon_to_mm": 160.4757,
+    "A_det_mm2": 829.67,
+    "area_diff_pct": 1.9,
+    "mean_det_to_gt_mm": 0.134,
+    "hausdorff_mm": 0.654
+  }
+}

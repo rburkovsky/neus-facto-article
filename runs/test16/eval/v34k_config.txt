@@ -1,0 +1,21 @@
+=== test16 article-grade config (locked in with 16-candidate PCA-init) ===
+
+SAM segmentation: previous TIGHT config (already correct, no change needed)
+Aggregation: --score-thresh 0.9 --vis-thresh 0.3
+
+Sim(3)-ICP evaluation (evaluate_lesion_simicp.py):
+  --pca-init                       <-- CRITICAL — 16 candidates (4 sign combos
+                                         in S × 2 axis orderings × 2 sz signs)
+  --max-correspondence-dist 0.5    <-- tight, prevents collapse
+
+Final metrics:
+  AD     = 0.114 mm  (best AD in the 11-run set, tied with test15)
+  HD     = 0.881 mm
+  HD90   = 0.188 mm
+  area   = 838.6 mm² (GT 814.2, diff +2.99%)
+  F1@0.3 = 99.1%
+  F1@0.5 = 99.7%
+  F1@1.0 = 100.0%
+  NC     = 0.984
+  scale_recon_to_mm = 67.65 (init area-ratio = 66.66, ratio 1.015)
+  PCA-init: chose candidate #5 (sx=-1, sy=+1, sz=+1)

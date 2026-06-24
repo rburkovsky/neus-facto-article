@@ -1,0 +1,79 @@
+Loading + subdividing mesh to subdiv=2...
+  16000000 faces (subdiv=2)
+
+Re-aggregating at subdiv=2 (51 views remaining)
+  view 000/51  mask=1162231px (2s)
+  view 001/51  mask=79439px (6s)
+  view 002/51  mask=95575px (8s)
+  view 003/51  mask=130762px (9s)
+  view 004/51  mask=151093px (11s)
+  view 005/51  mask=197996px (13s)
+  view 006/51  mask=211236px (14s)
+  view 007/51  mask=222016px (16s)
+  view 008/51  mask=218692px (17s)
+  view 009/51  mask=242471px (19s)
+  view 010/51  mask=242662px (20s)
+  view 011/51  mask=268490px (22s)
+  view 012/51  mask=273024px (23s)
+  view 013/51  mask=259545px (25s)
+  view 014/51  mask=280159px (26s)
+  view 015/51  mask=272143px (28s)
+  view 016/51  mask=317870px (29s)
+  view 017/51  mask=312322px (31s)
+  view 018/51  mask=301834px (32s)
+  view 019/51  mask=266360px (34s)
+  view 020/51  mask=246006px (35s)
+  view 021/51  mask=273193px (37s)
+  view 022/51  mask=389095px (41s)
+  view 023/51  mask=2334592px (42s)
+  view 024/51  mask=284900px (44s)
+  view 025/51  mask=1477408px (45s)
+  view 026/51  mask=223202px (47s)
+  view 027/51  mask=1323683px (49s)
+  view 028/51  mask=232208px (50s)
+  view 029/51  mask=1414961px (52s)
+  view 030/51  mask=206018px (53s)
+  view 031/51  mask=124321px (55s)
+  view 032/51  mask=99184px (57s)
+  view 033/51  mask=90017px (58s)
+  view 034/51  mask=89174px (60s)
+  view 035/51  mask=82601px (61s)
+  view 036/51  mask=57976px (63s)
+  view 037/51  mask=72835px (65s)
+  view 038/51  mask=107558px (66s)
+  view 039/51  mask=375771px (68s)
+  view 040/51  mask=2483716px (69s)
+  view 041/51  mask=358313px (71s)
+  view 042/51  mask=2643306px (75s)
+  view 043/51  mask=318210px (76s)
+  view 044/51  mask=2757388px (78s)
+  view 045/51  mask=328289px (79s)
+  view 046/51  mask=307891px (81s)
+  view 047/51  mask=221475px (82s)
+  view 048/51  mask=1631977px (84s)
+  view 049/51  mask=1731529px (85s)
+  view 050/51  mask=1645582px (87s)
+
+1144169 faces >= 0.9
+  DBSCAN top-2: [231663, 226548, 203779, 87508, 73974]
+  candidate: 458211 faces
+
+Depth filter (51 views)...
+  view 000/51 (6s)
+  view 010/51 (25s)
+  view 020/51 (41s)
+  view 030/51 (58s)
+  view 040/51 (74s)
+  view 050/51 (93s)
+
+Final: 454352 faces, area 0.26705
+
+Side-by-side renders...
+  view 000/51
+  view 010/51
+  view 020/51
+  view 030/51
+  view 040/51
+  view 050/51
+
+Done -> /home/roman/mini-mesh-eval/runs/v34_test6/per_view_v34n_compare/

@@ -1,0 +1,26 @@
+Loading mesh + texture from /home/roman/mini-mesh-runs/test8-sharpest-fixed-neus-facto-80k-bias0p5-eik0p5-MAX-3090quebec...
+  1000000 faces (base mesh, no subdiv)
+  101 COLMAP poses; render res 3072x4096
+  rendered 000/101  (1s)
+  rendered 005/101  (4s)
+  rendered 010/101  (7s)
+  rendered 015/101  (9s)
+  rendered 020/101  (12s)
+  rendered 025/101  (15s)
+  rendered 030/101  (18s)
+  rendered 035/101  (21s)
+  rendered 040/101  (24s)
+  rendered 045/101  (26s)
+  rendered 050/101  (29s)
+  rendered 055/101  (32s)
+  rendered 060/101  (34s)
+  rendered 065/101  (37s)
+  rendered 070/101  (40s)
+  rendered 075/101  (42s)
+  rendered 080/101  (45s)
+  rendered 085/101  (48s)
+  rendered 090/101  (51s)
+  rendered 095/101  (54s)
+  rendered 100/101  (56s)
+
+Done: 101/101 renders -> /home/roman/mini-mesh-eval/runs/v34_test8/renders/

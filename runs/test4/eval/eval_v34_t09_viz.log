@@ -1,0 +1,17 @@
+Loading detected (mm): /home/roman/mini-mesh-eval/runs/v34_test4/eval_v34_t09_simicp/detected_aligned_mm.ply
+  24388 verts, 47933 faces, area=829.67 mm²
+Loading GT: /mnt/c/Users/Roman/Documents/blender/foot_with_veins/gt_export_v12/region_lesion_top_v12.ply
+  6449 verts, 12688 faces, area=814.18 mm²
+
+[1/3] 3D overlay orbit render...
+  -> /home/roman/mini-mesh-eval/runs/v34_test4/eval_v34_t09_viz/overlay_orbit.jpg
+
+[2/3] Distance heatmap...
+  per-vertex distance to GT: mean=0.122mm, max=0.668mm
+    p95=0.291mm  p99=0.431mm
+  -> /home/roman/mini-mesh-eval/runs/v34_test4/eval_v34_t09_viz/distance_heatmap.jpg
+
+[3/3] PCA-projected 2D overlay...
+  -> /home/roman/mini-mesh-eval/runs/v34_test4/eval_v34_t09_viz/pca_overlay_2d.png
+
+Done -> /home/roman/mini-mesh-eval/runs/v34_test4/eval_v34_t09_viz/

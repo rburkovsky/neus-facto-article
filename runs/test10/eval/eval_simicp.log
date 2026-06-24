@@ -1,0 +1,45 @@
+Loading detected lesion from /home/roman/mini-mesh-eval/runs/v34_test10/lesion_binary_v34n.ply ...
+  trimesh.split: kept largest of 24 components, dropped 0.26% area as floaters
+  detected: 138650 verts, 272118 faces, area=0.11252 (recon units²)
+Loading GT lesion from /mnt/c/Users/Roman/Documents/blender/foot_with_veins/gt_export_v12/region_lesion_top_v12.ply ...
+  gt: 6449 verts, 12688 faces, area=814.18 mm²
+  init scale (area ratio sqrt): 85.0647
+Running Sim(3)-ICP (max_iter=200, max_corr=5.0 mm)...
+  fitness: 1.0000  inlier_rmse: 0.0845 mm
+  derived scale (recon->mm): 1.6700
+
+=== AREA ===
+  detected (recon units²):     0.11252
+  detected (mm² after sim(3)): 0.31
+  GT (mm²):                    814.18
+  diff:                        -813.86 mm² (-99.96%)
+
+=== AD / HD / HD90 (mm) ===
+  AD   (avg distance, symmetric mean):  5.1391 mm
+  HD   (Hausdorff, max):                16.6874 mm
+  HD90 (90th-pct):                      14.5663 mm
+  per-dir: det->gt mean=0.0784  gt->det mean=10.1997
+
+=== F-score at distance thresholds ===
+  T_0.10mm: precision= 75.20%  recall=  0.07%  F1=  0.14%
+  T_0.20mm: precision=100.00%  recall=  0.11%  F1=  0.23%
+  T_0.30mm: precision=100.00%  recall=  0.14%  F1=  0.29%
+  T_0.50mm: precision=100.00%  recall=  0.23%  F1=  0.46%
+  T_0.70mm: precision=100.00%  recall=  0.32%  F1=  0.63%
+  T_1.00mm: precision=100.00%  recall=  0.64%  F1=  1.26%
+
+=== Normal Consistency (NN coupling) ===
+  NC: 0.8121   (1.0 = perfect alignment)
+
+=== W2 (Earth Mover's distance, mm) — subsample=2000×2000 ===
+  W2: 10.7640 mm
+
+=== W2-NC (NC under W2 coupling) ===
+  W2-NC: 0.8059
+
+=== Auxiliary IoU metrics ===
+  PCA-projected 2D IoU: 0.08%  (det_2D=0 mm², gt_2D=737 mm²)
+  Voxel-3D IoU @ 0.30mm: 0.11%  (noisy on paper-thin surfaces)
+
+Saved metrics to /home/roman/mini-mesh-eval/runs/v34_test10/eval_v34_t09_simicp/metrics.json
+Saved aligned detected (mm) to /home/roman/mini-mesh-eval/runs/v34_test10/eval_v34_t09_simicp/detected_aligned_mm.ply

@@ -1,0 +1,2 @@
+config: TIGHT (similar to test6 — dark lesion needs relaxed L + larger frac)
+args: --lab-l-min 25 --lab-a-min 130 --max-mask-frac 0.10

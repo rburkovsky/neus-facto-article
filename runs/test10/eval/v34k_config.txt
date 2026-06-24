@@ -1,0 +1,29 @@
+=== test10 article-grade config (locked in) ===
+
+SAM segmentation (run_sam_per_view.py):
+  --subdiv 1 --score-thresh 0.5
+  --lab-l-min 30 --max-mask-frac 0.06
+  --min-p25-l 60 --max-p25-l 130
+  --max-aspect-ratio 5.0 --min-solidity 0.85 --min-cc-px 6000
+  --two-stage
+  (default prompts: brown spot; brown stain; lesion; brown patch)
+
+Aggregation (aggregate_lesion_mesh.py):
+  --score-thresh 0.9 --vis-thresh 0.3
+  (subdiv-2, DBSCAN top-2, depth-occlusion filter)
+
+Sim(3)-ICP evaluation (evaluate_lesion_simicp.py):
+  --pca-init      <-- CRITICAL for test10 (was scale-collapsing without)
+  default max-correspondence-dist 5.0 mm
+
+Final metrics:
+  AD     = 0.132 mm
+  HD     = 0.673 mm
+  HD90   = 0.211 mm
+  area   = 834.1 mm² (GT 814.2, diff +2.45%)
+  F1@0.3 = 99.2%
+  F1@0.5 = 99.9%
+  NC     = 0.987
+  PCA-2D-IoU = 98.7%
+  scale_recon_to_mm = 84.73 (init area-ratio = 83.71)
+  PCA-init mean NN distance: 0.225 mm

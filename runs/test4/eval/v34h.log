@@ -1,0 +1,39 @@
+/home/roman/miniforge3/envs/sam3/lib/python3.12/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Loading mesh...
+  candidate lesion (DBSCAN top-2 thresh=0.3): 16410 faces
+
+Rendering 82 depth buffers...
+  depth range (view 0): min 1.7779, median 2.2995, max 3.4531
+  view 000/82  tol=0.02300  (1s)
+  view 010/82  tol=0.02300  (7s)
+  view 020/82  tol=0.02300  (12s)
+  view 030/82  tol=0.02300  (19s)
+  view 040/82  tol=0.02300  (24s)
+  view 050/82  tol=0.02300  (30s)
+  view 060/82  tol=0.02300  (35s)
+  view 070/82  tol=0.02300  (40s)
+  view 080/82  tol=0.02300  (47s)
+
+Visibility-ratio stats among lesion candidates:
+  min: 0.000, mean: 0.724, max: 1.000
+  faces with ratio >= 0.5: 12444
+  faces with ratio >= 0.3: 12444
+  faces with ratio >= 0.1: 12444
+
+Kept 12444 / 16410 lesion faces (vis_thresh=0.3)
+  dropped 3966 occluded faces
+  area: 0.03274
+
+Wrote /home/roman/mini-mesh-eval/runs/v34_test4/lesion_binary_v34h.ply
+  rerender view 000/82
+  rerender view 010/82
+  rerender view 020/82
+  rerender view 030/82
+  rerender view 040/82
+  rerender view 050/82
+  rerender view 060/82
+  rerender view 070/82
+  rerender view 080/82
+
+Done -> /home/roman/mini-mesh-eval/runs/v34_test4/per_view_v34h/

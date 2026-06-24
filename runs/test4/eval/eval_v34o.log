@@ -1,0 +1,36 @@
+Detected: /home/roman/mini-mesh-eval/runs/v34_test4/lesion_binary_v34o.ply
+GT:       /mnt/c/Users/Roman/Documents/blender/foot_with_veins/gt_export_v12/region_lesion_top_v12.ply
+  detected: 25731 verts, 48404 faces
+  gt:       6449 verts, 12688 faces
+
+=== Approach 1: Shape-only (equal-area normalization + R+t ICP) ===
+  A_det (recon-units^2) = 0.032273
+  A_gt (mm^2)           = 814.177235
+  forcing equal-area scale: x158.8317
+  A_det after scale     = 814.177235 (should ~= 814.177235)
+  ICP fitness:     1.0000
+  ICP inlier RMSE: 1.1797 mm
+
+=== Approach 2: Sim(3)-ICP (best-fit scale from data) ===
+  sim(3) scale (from data) = 1.7095
+  ICP fitness  = 1.0000
+  ICP RMSE     = 0.0647 mm
+  A_det (mm^2 via sim(3))   = 0.09
+  A_gt  (mm^2)              = 814.18
+  diff                       = -814.08 mm^2  (-99.99%)
+
+
+=== SUMMARY ===
+  Approach 1 (shape-only):
+    IoU @ 0.3mm voxel:        5.88%
+    Chamfer (mm-eq):          0.981
+    Hausdorff (mm-eq):        3.616
+    XOR area (mm²-eq):        1447.48
+  Approach 2 (sim(3)-ICP):
+    scale s_icp:              1.7095
+    A_det = 0.09 mm² | A_gt = 814.18 mm² | diff = -814.08 (-99.99%)
+    IoU @ 0.3mm voxel:        0.03%
+    Chamfer (mm):             5.190
+    Hausdorff (mm):           16.772
+
+Wrote eval_summary.json + aligned PLYs to /home/roman/mini-mesh-eval/runs/v34_test4/eval_v34o/

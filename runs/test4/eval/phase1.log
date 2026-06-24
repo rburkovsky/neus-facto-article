@@ -1,0 +1,24 @@
+/home/roman/miniforge3/envs/sam3/lib/python3.12/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Loading mesh + texture from /home/roman/mini-mesh-runs/test4-sharpest-neus-facto-100k-d1-near0p01-far5p0-nomask-bias0p5-1Mf-8ktex-3090polandR2...
+  1000000 faces (base mesh, no subdiv)
+  82 COLMAP poses; render res 3072x4096
+  rendered 000/82  (1s)
+  rendered 005/82  (3s)
+  rendered 010/82  (5s)
+  rendered 015/82  (7s)
+  rendered 020/82  (9s)
+  rendered 025/82  (11s)
+  rendered 030/82  (16s)
+  rendered 035/82  (18s)
+  rendered 040/82  (20s)
+  rendered 045/82  (22s)
+  rendered 050/82  (25s)
+  rendered 055/82  (27s)
+  rendered 060/82  (29s)
+  rendered 065/82  (32s)
+  rendered 070/82  (34s)
+  rendered 075/82  (37s)
+  rendered 080/82  (39s)
+
+Done: 82/82 renders -> /home/roman/mini-mesh-eval/runs/v34_test4/renders/

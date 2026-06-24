@@ -1,0 +1,90 @@
+{
+  "test4": {
+    "config": "DEFAULTS",
+    "best_stage": "above_threshold",
+    "area_diff_pct": 1.6081167153834814,
+    "AD_mm": 0.1626615783667099,
+    "F1_at_0_3mm": 0.9643208715715248,
+    "scale_recon_to_mm": 160.52942681936943
+  },
+  "test5": {
+    "config": "TUNED",
+    "best_stage": "clustered",
+    "area_diff_pct": 0.5607145268646636,
+    "AD_mm": 0.22466777338794827,
+    "F1_at_0_3mm": 0.7563499867786078,
+    "scale_recon_to_mm": 139.6098178001765
+  },
+  "test6": {
+    "config": "TIGHT",
+    "best_stage": "above_threshold",
+    "area_diff_pct": -99.96825687686784,
+    "AD_mm": 5.155927727360151,
+    "F1_at_0_3mm": 0.00239712345185777,
+    "scale_recon_to_mm": 1.128453568841106
+  },
+  "test8": {
+    "config": "DEFAULTS+top_y",
+    "best_stage": "clustered",
+    "area_diff_pct": 1.269531223798588,
+    "AD_mm": 0.14823635587649708,
+    "F1_at_0_3mm": 0.9579111566365676,
+    "scale_recon_to_mm": 127.14051228436223
+  },
+  "test10": {
+    "config": "TUNED",
+    "best_stage": "above_threshold",
+    "area_diff_pct": -99.94109028101576,
+    "AD_mm": 5.116141310279998,
+    "F1_at_0_3mm": 0.0035935316430425234,
+    "scale_recon_to_mm": 2.0754491186343036
+  },
+  "test11": {
+    "config": "TUNED",
+    "best_stage": "final",
+    "area_diff_pct": -61.856076552508036,
+    "AD_mm": 1.5163196351208914,
+    "F1_at_0_3mm": 0.360731829429706,
+    "scale_recon_to_mm": 42.64391521281604
+  },
+  "test12": {
+    "config": "TUNED",
+    "best_stage": "final",
+    "area_diff_pct": -90.3025657474017,
+    "AD_mm": 3.1922185064399042,
+    "F1_at_0_3mm": 0.14536128132085344,
+    "scale_recon_to_mm": 36.27594625523408
+  },
+  "test13": {
+    "config": "TUNED",
+    "best_stage": "clustered",
+    "area_diff_pct": -56.73902548052686,
+    "AD_mm": 1.2950013999273753,
+    "F1_at_0_3mm": 0.389680191036819,
+    "scale_recon_to_mm": 72.30736931081016
+  },
+  "test14": {
+    "config": "TUNED",
+    "best_stage": "clustered",
+    "area_diff_pct": 1.5625575455327778,
+    "AD_mm": 0.117996211215457,
+    "F1_at_0_3mm": 0.9933010746734453,
+    "scale_recon_to_mm": 111.65410039905741
+  },
+  "test15": {
+    "config": "DEFAULTS",
+    "best_stage": "clustered",
+    "area_diff_pct": 1.8536985864387336,
+    "AD_mm": 0.11506013002789225,
+    "F1_at_0_3mm": 0.9929717119838872,
+    "scale_recon_to_mm": 65.07785385827594
+  },
+  "test16": {
+    "config": "TIGHT",
+    "best_stage": "above_threshold",
+    "area_diff_pct": -99.95947122241628,
+    "AD_mm": 5.158540260192998,
+    "F1_at_0_3mm": 0.003095202436223853,
+    "scale_recon_to_mm": 1.3419252639847639
+  }
+}

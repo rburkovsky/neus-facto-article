@@ -1,0 +1,16 @@
+Loading mesh + texture from /home/roman/mini-mesh-runs/test6-sharpest-neus-facto-100k-d1-near0p01-far5p0-nomask-bias0p5-1Mf-8ktex-3090polandNEW...
+  1000000 faces (base mesh, no subdiv)
+  51 COLMAP poses; render res 3072x4096
+  rendered 000/51  (1s)
+  rendered 005/51  (4s)
+  rendered 010/51  (7s)
+  rendered 015/51  (10s)
+  rendered 020/51  (14s)
+  rendered 025/51  (17s)
+  rendered 030/51  (20s)
+  rendered 035/51  (23s)
+  rendered 040/51  (26s)
+  rendered 045/51  (29s)
+  rendered 050/51  (32s)
+
+Done: 51/51 renders -> /home/roman/mini-mesh-eval/runs/v34_test6/renders/

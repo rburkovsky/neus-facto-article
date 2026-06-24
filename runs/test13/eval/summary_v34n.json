@@ -1,0 +1,6 @@
+{
+  "approach": "v34n = subdiv=2 + saved masks + DBSCAN + depth filter",
+  "score_thresh": 0.9,
+  "n_lesion_faces": 192115,
+  "area": 0.06716213090675964
+}

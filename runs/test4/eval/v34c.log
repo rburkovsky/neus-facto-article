@@ -1,0 +1,21 @@
+/home/roman/miniforge3/envs/sam3/lib/python3.12/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Loading mesh + checkpoint...
+  19698 faces above threshold 0.3
+  146 connected components, sizes: [4635, 3606, 2499, 1260, 925, 831, 775, 724, 538, 504] ...
+  Largest CC: 4635 faces
+  Area: 0.011949 (recon units^2)
+  Wrote /home/roman/mini-mesh-eval/runs/v34_test4/lesion_binary_clean.ply
+
+Rendering combined detection per view...
+  view 000/82
+  view 010/82
+  view 020/82
+  view 030/82
+  view 040/82
+  view 050/82
+  view 060/82
+  view 070/82
+  view 080/82
+
+Done -> /home/roman/mini-mesh-eval/runs/v34_test4/per_view_combined/

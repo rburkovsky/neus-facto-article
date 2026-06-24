@@ -1,0 +1,7 @@
+{
+  "approach": "v34h = v34f + depth-occlusion visibility filter",
+  "vis_thresh": 0.3,
+  "n_lesion_before_vis": 16410,
+  "n_lesion_after_vis": 12444,
+  "area": 0.032739499542223535
+}

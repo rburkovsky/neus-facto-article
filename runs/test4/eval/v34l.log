@@ -1,0 +1,41 @@
+/home/roman/miniforge3/envs/sam3/lib/python3.12/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Loading mesh + lesion PLY (/home/roman/mini-mesh-eval/runs/v34_test4/lesion_binary_v34k.ply)...
+  12312 lesion triangles
+Loading BiRefNet + SAM 3.1 (for raw mask extraction)...
+loaded /home/roman/.cache/huggingface/hub/models--facebook--sam3.1/snapshots/daa63191845a41281374e725f4c9e51c7a824460/sam3.1_multiplex.pt and found missing and/or unexpected keys:
+missing_keys=['backbone.vision_backbone.convs.3.conv_1x1.weight', 'backbone.vision_backbone.convs.3.conv_1x1.bias', 'backbone.vision_backbone.convs.3.conv_3x3.weight', 'backbone.vision_backbone.convs.3.conv_3x3.bias']
+
+Extracting RAW SAM masks (82 views)...
+  view 000/82 (2s)
+  view 005/82 (7s)
+  view 010/82 (12s)
+  view 015/82 (17s)
+  view 020/82 (22s)
+  view 025/82 (29s)
+  view 030/82 (34s)
+  view 035/82 (40s)
+  view 040/82 (45s)
+  view 045/82 (50s)
+  view 050/82 (56s)
+  view 055/82 (64s)
+  view 060/82 (69s)
+  view 065/82 (74s)
+  view 070/82 (80s)
+  view 075/82 (86s)
+  view 080/82 (94s)
+
+Raw masks saved -> /home/roman/mini-mesh-eval/runs/v34_test4/masks_raw/
+
+Building 3-column comparisons -> /home/roman/mini-mesh-eval/runs/v34_test4/per_view_v34l_3col/
+  view 000/82
+  view 010/82
+  view 020/82
+  view 030/82
+  view 040/82
+  view 050/82
+  view 060/82
+  view 070/82
+  view 080/82
+
+Done -> /home/roman/mini-mesh-eval/runs/v34_test4/per_view_v34l_3col/

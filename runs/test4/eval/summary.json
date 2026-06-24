@@ -1,0 +1,10 @@
+{
+  "approach": "v34 two-phase: pre-rendered views + BiRefNet + SAM + centroid",
+  "run": "/home/roman/mini-mesh-runs/test4-sharpest-neus-facto-100k-d1-near0p01-far5p0-nomask-bias0p5-1Mf-8ktex-3090polandR2",
+  "subdiv": 1,
+  "n_frames": 82,
+  "n_kept_views": 82,
+  "n_lesion_faces": 19698,
+  "lesion_area_recon_units2": 0.04641638386899657,
+  "score_thresh": 0.3
+}
