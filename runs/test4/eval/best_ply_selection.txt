@@ -1,0 +1,20 @@
+best stage: above_threshold
+
+above_threshold:
+  area_diff_pct = +1.61%
+  AD            = 0.163 mm
+  HD            = 0.626 mm
+  F1@0.3mm      = 96.43%
+  scale         = 160.529
+clustered:
+  area_diff_pct = +1.75%
+  AD            = 0.163 mm
+  HD            = 0.691 mm
+  F1@0.3mm      = 96.33%
+  scale         = 160.645
+final:
+  area_diff_pct = +1.67%
+  AD            = 0.162 mm
+  HD            = 0.652 mm
+  F1@0.3mm      = 96.30%
+  scale         = 160.581

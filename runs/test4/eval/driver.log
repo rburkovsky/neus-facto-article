@@ -1,0 +1,377 @@
+=== driver run for test4 @ 2026-06-19 15:20:16 ===
+config: DEFAULTS
+args: 
+/home/roman/miniforge3/envs/sam3/lib/python3.12/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Filters: LAB_L=[50,175] LAB_A_MIN=130 MAX_MASK_FRAC=0.15 MIN_CC_PX=100 MAX_ASPECT=999.0  score_thresh=0.5
+Prompts (4): ['brown spot', 'brown stain', 'lesion', 'brown patch']
+Loading mesh...
+Loading BiRefNet + SAM 3.1...
+loaded /home/roman/.cache/huggingface/hub/models--facebook--sam3.1/snapshots/daa63191845a41281374e725f4c9e51c7a824460/sam3.1_multiplex.pt and found missing and/or unexpected keys:
+missing_keys=['backbone.vision_backbone.convs.3.conv_1x1.weight', 'backbone.vision_backbone.convs.3.conv_1x1.bias', 'backbone.vision_backbone.convs.3.conv_3x3.weight', 'backbone.vision_backbone.convs.3.conv_3x3.bias']
+
+Aggregating: 82 views remaining (no morph)
+  view 000: mask=20264px marked=16323 (3s)
+  view 001: mask=22548px marked=16219 (5s)
+  view 002: mask=23902px marked=14941 (7s)
+  view 003: mask=24785px marked=13422 (9s)
+  view 004: mask=23529px marked=13251 (10s)
+  view 005: mask=23505px marked=13390 (12s)
+  view 006: mask=21629px marked=23596 (14s)
+  view 007: mask=20193px marked=17660 (16s)
+  view 008: mask=18026px marked=13245 (18s)
+  view 009: mask=15473px marked=9739 (20s)
+  view 010: mask=13086px marked=7564 (22s)
+  view 011: mask=11195px marked=6504 (24s)
+  view 012: mask=9317px marked=5425 (26s)
+  view 013: mask=6902px marked=4145 (28s)
+  view 014: mask=4800px marked=3698 (30s)
+  view 016: mask=6895px marked=5007 (34s)
+  view 017: mask=8234px marked=7536 (36s)
+  view 018: mask=8248px marked=7584 (38s)
+  view 019: mask=9175px marked=15837 (40s)
+  view 020: mask=11193px marked=25236 (42s)
+  view 021: mask=12697px marked=31753 (44s)
+  view 022: mask=13811px marked=26976 (46s)
+  view 023: mask=38926px marked=56435 (48s)
+  view 024: mask=37230px marked=54655 (50s)
+  view 025: mask=36677px marked=55976 (52s)
+  view 026: mask=36093px marked=45086 (54s)
+  view 027: mask=34648px marked=40694 (56s)
+  view 028: mask=19133px marked=14480 (58s)
+  view 029: mask=57486px marked=41417 (61s)
+  view 030: mask=15913px marked=10879 (62s)
+  view 031: mask=51415px marked=42091 (65s)
+  view 032: mask=11491px marked=8588 (67s)
+  view 033: mask=49359px marked=30426 (69s)
+  view 034: mask=8935px marked=7825 (71s)
+  view 035: mask=47543px marked=24216 (73s)
+  view 036: mask=5791px marked=6469 (75s)
+  view 037: mask=44548px marked=22158 (77s)
+  view 038: mask=3953px marked=5523 (79s)
+  view 039: mask=37846px marked=19922 (81s)
+  view 040: mask=5827px marked=6267 (83s)
+  view 041: mask=33176px marked=17996 (85s)
+  view 042: mask=7080px marked=6889 (87s)
+  view 043: mask=29000px marked=15265 (89s)
+  view 044: mask=9088px marked=7261 (91s)
+  view 045: mask=19462px marked=11674 (94s)
+  view 046: mask=12474px marked=8992 (96s)
+  view 047: mask=16025px marked=7749 (98s)
+  view 048: mask=38963px marked=55680 (100s)
+  view 049: mask=80392px marked=42944 (102s)
+  view 050: mask=36069px marked=46120 (104s)
+  view 051: mask=62973px marked=47458 (106s)
+  view 052: mask=34962px marked=39964 (108s)
+  view 053: mask=61028px marked=52422 (111s)
+  view 054: mask=32913px marked=37646 (113s)
+  view 055: mask=58665px marked=47256 (115s)
+  view 056: mask=32263px marked=23500 (117s)
+  view 057: mask=52400px marked=42743 (119s)
+  view 058: mask=27503px marked=26243 (121s)
+  view 059: mask=51021px marked=33880 (124s)
+  view 060: mask=24349px marked=17650 (126s)
+  view 061: mask=48774px marked=33496 (128s)
+  view 062: mask=18679px marked=16124 (130s)
+  view 063: mask=41452px marked=30014 (132s)
+  view 064: mask=14638px marked=15575 (133s)
+  view 065: mask=31488px marked=26181 (135s)
+  view 066: mask=11887px marked=19668 (137s)
+  view 067: mask=29664px marked=25594 (139s)
+  view 068: mask=10724px marked=14056 (141s)
+  view 069: mask=19886px marked=15318 (143s)
+  view 070: mask=9475px marked=8016 (145s)
+  view 071: mask=17387px marked=12547 (147s)
+  view 072: mask=8629px marked=6290 (149s)
+  view 073: mask=15072px marked=10434 (151s)
+  view 074: mask=12216px marked=6961 (153s)
+  view 075: mask=33075px marked=33540 (155s)
+  view 076: mask=31142px marked=24303 (157s)
+  view 077: mask=27341px marked=24307 (159s)
+  view 078: mask=24462px marked=26330 (161s)
+  view 079: mask=21812px marked=27701 (163s)
+  view 080: mask=20035px marked=28098 (165s)
+  view 081: mask=17272px marked=28750 (167s)
+
+Done. Per-frame masks at /home/roman/mini-mesh-eval/runs/v34_test4/masks_nomorph/
+Run aggregate_lesion_mesh.py --run <RUN> --out <SAME OUT> to produce the final lesion mesh.
+
+=== SAM pass ===
+$ python -u /mnt/c/Users/Roman/lesion-neus-facto-article/scripts/pipeline/run_sam_per_view.py --run /home/roman/mini-mesh-runs/test4-sharpest-neus-facto-100k-d1-near0p01-far5p0-nomask-bias0p5-1Mf-8ktex-3090polandR2 --out /home/roman/mini-mesh-eval/runs/v34_test4 --subdiv 1 --score-thresh 0.5
+Loading + subdividing mesh to subdiv=2...
+  16000000 faces (subdiv=2)
+
+Re-aggregating at subdiv=2 (82 views remaining)
+  view 000/82  mask=20264px (2s)
+  view 001/82  mask=22548px (3s)
+  view 002/82  mask=23902px (5s)
+  view 003/82  mask=24785px (7s)
+  view 004/82  mask=23529px (8s)
+  view 005/82  mask=23505px (10s)
+  view 006/82  mask=21629px (11s)
+  view 007/82  mask=20193px (13s)
+  view 008/82  mask=18026px (15s)
+  view 009/82  mask=15473px (16s)
+  view 010/82  mask=13086px (18s)
+  view 011/82  mask=11195px (19s)
+  view 012/82  mask=9317px (21s)
+  view 013/82  mask=6902px (22s)
+  view 014/82  mask=4800px (24s)
+  view 016/82  mask=6895px (25s)
+  view 017/82  mask=8234px (27s)
+  view 018/82  mask=8248px (28s)
+  view 019/82  mask=9175px (30s)
+  view 020/82  mask=11193px (32s)
+  view 021/82  mask=12697px (33s)
+  view 022/82  mask=13811px (35s)
+  view 023/82  mask=38926px (36s)
+  view 024/82  mask=37230px (38s)
+  view 025/82  mask=36677px (39s)
+  view 026/82  mask=36093px (41s)
+  view 027/82  mask=34648px (42s)
+  view 028/82  mask=19133px (44s)
+  view 029/82  mask=57486px (45s)
+  view 030/82  mask=15913px (47s)
+  view 031/82  mask=51415px (49s)
+  view 032/82  mask=11491px (50s)
+  view 033/82  mask=49359px (52s)
+  view 034/82  mask=8935px (53s)
+  view 035/82  mask=47543px (55s)
+  view 036/82  mask=5791px (57s)
+  view 037/82  mask=44548px (58s)
+  view 038/82  mask=3953px (60s)
+  view 039/82  mask=37846px (61s)
+  view 040/82  mask=5827px (63s)
+  view 041/82  mask=33176px (64s)
+  view 042/82  mask=7080px (66s)
+  view 043/82  mask=29000px (67s)
+  view 044/82  mask=9088px (69s)
+  view 045/82  mask=19462px (70s)
+  view 046/82  mask=12474px (72s)
+  view 047/82  mask=16025px (74s)
+  view 048/82  mask=38963px (75s)
+  view 049/82  mask=80392px (77s)
+  view 050/82  mask=36069px (78s)
+  view 051/82  mask=62973px (80s)
+  view 052/82  mask=34962px (82s)
+  view 053/82  mask=61028px (83s)
+  view 054/82  mask=32913px (85s)
+  view 055/82  mask=58665px (86s)
+  view 056/82  mask=32263px (88s)
+  view 057/82  mask=52400px (89s)
+  view 058/82  mask=27503px (91s)
+  view 059/82  mask=51021px (93s)
+  view 060/82  mask=24349px (94s)
+  view 061/82  mask=48774px (96s)
+  view 062/82  mask=18679px (97s)
+  view 063/82  mask=41452px (99s)
+  view 064/82  mask=14638px (100s)
+  view 065/82  mask=31488px (102s)
+  view 066/82  mask=11887px (104s)
+  view 067/82  mask=29664px (105s)
+  view 068/82  mask=10724px (107s)
+  view 069/82  mask=19886px (108s)
+  view 070/82  mask=9475px (110s)
+  view 071/82  mask=17387px (111s)
+  view 072/82  mask=8629px (113s)
+  view 073/82  mask=15072px (115s)
+  view 074/82  mask=12216px (116s)
+  view 075/82  mask=33075px (118s)
+  view 076/82  mask=31142px (119s)
+  view 077/82  mask=27341px (121s)
+  view 078/82  mask=24462px (122s)
+  view 079/82  mask=21812px (124s)
+  view 080/82  mask=20035px (126s)
+  view 081/82  mask=17272px (127s)
+
+48793 faces >= 0.9
+  saved stage 1: lesion_above_threshold.ply (48793 faces)
+  DBSCAN top-2: [47830, 947, 16]
+  candidate: 48777 faces
+  saved stage 2: lesion_clustered.ply (48777 faces)
+
+Depth filter (82 views)...
+  view 000/82 (6s)
+  view 010/82 (22s)
+  view 020/82 (38s)
+  view 030/82 (54s)
+  view 040/82 (70s)
+  view 050/82 (86s)
+  view 060/82 (101s)
+  view 070/82 (117s)
+  view 080/82 (134s)
+
+Final: 47830 faces, area 0.03210
+  saved stage 3 (final): lesion_final.ply (47830 faces)
+
+Side-by-side renders...
+  view 000/82
+  view 010/82
+  view 020/82
+  view 030/82
+  view 040/82
+  view 050/82
+  view 060/82
+  view 070/82
+  view 080/82
+
+Done -> /home/roman/mini-mesh-eval/runs/v34_test4/per_view_compare/
+
+=== aggregate ===
+$ python -u /mnt/c/Users/Roman/lesion-neus-facto-article/scripts/pipeline/aggregate_lesion_mesh.py --run /home/roman/mini-mesh-runs/test4-sharpest-neus-facto-100k-d1-near0p01-far5p0-nomask-bias0p5-1Mf-8ktex-3090polandR2 --out /home/roman/mini-mesh-eval/runs/v34_test4 --score-thresh 0.9 --vis-thresh 0.3
+Loading detected lesion from /home/roman/mini-mesh-eval/runs/v34_test4/lesion_above_threshold.ply ...
+  trimesh.split: kept largest of 11 components, dropped 0.97% area as floaters
+  detected: 24335 verts, 47828 faces, area=0.03210 (recon units²)
+Loading GT lesion from /mnt/c/Users/Roman/Documents/blender/foot_with_veins/gt_export_v12/region_lesion_top_v12.ply ...
+  gt: 6449 verts, 12688 faces, area=814.18 mm²
+  init scale (area ratio sqrt): 159.2540
+Running Sim(3)-ICP (max_iter=200, max_corr=5.0 mm)...
+  fitness: 1.0000  inlier_rmse: 0.1800 mm
+  derived scale (recon->mm): 160.5294
+
+=== AREA ===
+  detected (recon units²):     0.03210
+  detected (mm² after sim(3)): 827.27
+  GT (mm²):                    814.18
+  diff:                        +13.09 mm² (+1.61%)
+
+=== AD / HD / HD90 (mm) ===
+  AD   (avg distance, symmetric mean):  0.1627 mm
+  HD   (Hausdorff, max):                0.6264 mm
+  HD90 (90th-pct):                      0.2572 mm
+  per-dir: det->gt mean=0.1641  gt->det mean=0.1612
+
+=== F-score at distance thresholds ===
+  T_0.10mm: precision= 19.21%  recall= 19.43%  F1= 19.32%
+  T_0.20mm: precision= 72.10%  recall= 72.67%  F1= 72.38%
+  T_0.30mm: precision= 95.91%  recall= 96.97%  F1= 96.43%
+  T_0.50mm: precision= 99.84%  recall=100.00%  F1= 99.92%
+  T_0.70mm: precision=100.00%  recall=100.00%  F1=100.00%
+  T_1.00mm: precision=100.00%  recall=100.00%  F1=100.00%
+
+=== Normal Consistency (NN coupling) ===
+  NC: 0.9898   (1.0 = perfect alignment)
+
+=== W2 (Earth Mover's distance, mm) — subsample=2000×2000 ===
+  W2: 1.0506 mm
+
+=== W2-NC (NC under W2 coupling) ===
+  W2-NC: 0.9767
+
+=== Auxiliary IoU metrics ===
+  PCA-projected 2D IoU: 98.68%  (det_2D=733 mm², gt_2D=739 mm²)
+  Voxel-3D IoU @ 0.30mm: 40.70%  (noisy on paper-thin surfaces)
+
+Saved metrics to /home/roman/mini-mesh-eval/runs/v34_test4/eval_above_threshold/metrics.json
+Saved aligned detected (mm) to /home/roman/mini-mesh-eval/runs/v34_test4/eval_above_threshold/detected_aligned_mm.ply
+
+=== eval lesion_above_threshold.ply ===
+$ python -u /mnt/c/Users/Roman/lesion-neus-facto-article/scripts/pipeline/evaluate_lesion_simicp.py --detected /home/roman/mini-mesh-eval/runs/v34_test4/lesion_above_threshold.ply --gt /mnt/c/Users/Roman/Documents/blender/foot_with_veins/gt_export_v12/region_lesion_top_v12.ply --out /home/roman/mini-mesh-eval/runs/v34_test4/eval_above_threshold
+Loading detected lesion from /home/roman/mini-mesh-eval/runs/v34_test4/lesion_clustered.ply ...
+  trimesh.split: kept largest of 10 components, dropped 0.96% area as floaters
+  detected: 24335 verts, 47828 faces, area=0.03210 (recon units²)
+Loading GT lesion from /mnt/c/Users/Roman/Documents/blender/foot_with_veins/gt_export_v12/region_lesion_top_v12.ply ...
+  gt: 6449 verts, 12688 faces, area=814.18 mm²
+  init scale (area ratio sqrt): 159.2540
+Running Sim(3)-ICP (max_iter=200, max_corr=5.0 mm)...
+  fitness: 1.0000  inlier_rmse: 0.1807 mm
+  derived scale (recon->mm): 160.6450
+
+=== AREA ===
+  detected (recon units²):     0.03210
+  detected (mm² after sim(3)): 828.46
+  GT (mm²):                    814.18
+  diff:                        +14.28 mm² (+1.75%)
+
+=== AD / HD / HD90 (mm) ===
+  AD   (avg distance, symmetric mean):  0.1633 mm
+  HD   (Hausdorff, max):                0.6912 mm
+  HD90 (90th-pct):                      0.2589 mm
+  per-dir: det->gt mean=0.1647  gt->det mean=0.1619
+
+=== F-score at distance thresholds ===
+  T_0.10mm: precision= 19.02%  recall= 19.10%  F1= 19.06%
+  T_0.20mm: precision= 72.04%  recall= 72.73%  F1= 72.38%
+  T_0.30mm: precision= 95.69%  recall= 96.98%  F1= 96.33%
+  T_0.50mm: precision= 99.86%  recall=100.00%  F1= 99.93%
+  T_0.70mm: precision=100.00%  recall=100.00%  F1=100.00%
+  T_1.00mm: precision=100.00%  recall=100.00%  F1=100.00%
+
+=== Normal Consistency (NN coupling) ===
+  NC: 0.9898   (1.0 = perfect alignment)
+
+=== W2 (Earth Mover's distance, mm) — subsample=2000×2000 ===
+  W2: 1.0658 mm
+
+=== W2-NC (NC under W2 coupling) ===
+  W2-NC: 0.9766
+
+=== Auxiliary IoU metrics ===
+  PCA-projected 2D IoU: 98.77%  (det_2D=734 mm², gt_2D=740 mm²)
+  Voxel-3D IoU @ 0.30mm: 40.35%  (noisy on paper-thin surfaces)
+
+Saved metrics to /home/roman/mini-mesh-eval/runs/v34_test4/eval_clustered/metrics.json
+Saved aligned detected (mm) to /home/roman/mini-mesh-eval/runs/v34_test4/eval_clustered/detected_aligned_mm.ply
+
+=== eval lesion_clustered.ply ===
+$ python -u /mnt/c/Users/Roman/lesion-neus-facto-article/scripts/pipeline/evaluate_lesion_simicp.py --detected /home/roman/mini-mesh-eval/runs/v34_test4/lesion_clustered.ply --gt /mnt/c/Users/Roman/Documents/blender/foot_with_veins/gt_export_v12/region_lesion_top_v12.ply --out /home/roman/mini-mesh-eval/runs/v34_test4/eval_clustered
+Loading detected lesion from /home/roman/mini-mesh-eval/runs/v34_test4/lesion_final.ply ...
+  trimesh.split: kept largest of 6 components, dropped 0.00% area as floaters
+  detected: 24335 verts, 47828 faces, area=0.03210 (recon units²)
+Loading GT lesion from /mnt/c/Users/Roman/Documents/blender/foot_with_veins/gt_export_v12/region_lesion_top_v12.ply ...
+  gt: 6449 verts, 12688 faces, area=814.18 mm²
+  init scale (area ratio sqrt): 159.2540
+Running Sim(3)-ICP (max_iter=200, max_corr=5.0 mm)...
+  fitness: 1.0000  inlier_rmse: 0.1798 mm
+  derived scale (recon->mm): 160.5807
+
+=== AREA ===
+  detected (recon units²):     0.03210
+  detected (mm² after sim(3)): 827.80
+  GT (mm²):                    814.18
+  diff:                        +13.62 mm² (+1.67%)
+
+=== AD / HD / HD90 (mm) ===
+  AD   (avg distance, symmetric mean):  0.1625 mm
+  HD   (Hausdorff, max):                0.6518 mm
+  HD90 (90th-pct):                      0.2576 mm
+  per-dir: det->gt mean=0.1638  gt->det mean=0.1611
+
+=== F-score at distance thresholds ===
+  T_0.10mm: precision= 19.58%  recall= 19.75%  F1= 19.66%
+  T_0.20mm: precision= 72.17%  recall= 73.04%  F1= 72.60%
+  T_0.30mm: precision= 95.84%  recall= 96.77%  F1= 96.30%
+  T_0.50mm: precision= 99.85%  recall=100.00%  F1= 99.92%
+  T_0.70mm: precision=100.00%  recall=100.00%  F1=100.00%
+  T_1.00mm: precision=100.00%  recall=100.00%  F1=100.00%
+
+=== Normal Consistency (NN coupling) ===
+  NC: 0.9900   (1.0 = perfect alignment)
+
+=== W2 (Earth Mover's distance, mm) — subsample=2000×2000 ===
+  W2: 1.0443 mm
+
+=== W2-NC (NC under W2 coupling) ===
+  W2-NC: 0.9770
+
+=== Auxiliary IoU metrics ===
+  PCA-projected 2D IoU: 98.64%  (det_2D=733 mm², gt_2D=740 mm²)
+  Voxel-3D IoU @ 0.30mm: 40.65%  (noisy on paper-thin surfaces)
+
+Saved metrics to /home/roman/mini-mesh-eval/runs/v34_test4/eval_final/metrics.json
+Saved aligned detected (mm) to /home/roman/mini-mesh-eval/runs/v34_test4/eval_final/detected_aligned_mm.ply
+
+=== eval lesion_final.ply ===
+$ python -u /mnt/c/Users/Roman/lesion-neus-facto-article/scripts/pipeline/evaluate_lesion_simicp.py --detected /home/roman/mini-mesh-eval/runs/v34_test4/lesion_final.ply --gt /mnt/c/Users/Roman/Documents/blender/foot_with_veins/gt_export_v12/region_lesion_top_v12.ply --out /home/roman/mini-mesh-eval/runs/v34_test4/eval_final
+
+=== gen_run_figures: test4 -> /mnt/c/Users/Roman/lesion-neus-facto-article/runs/test4 ===
+  eval folder: /home/roman/mini-mesh-eval/runs/v34_test4
+  found 82 per-view files
+  wrote /mnt/c/Users/Roman/lesion-neus-facto-article/runs/test4/sam_masks_per_frame.jpg  (2614x4026 px)
+  wrote /mnt/c/Users/Roman/lesion-neus-facto-article/runs/test4/combined_lesion_per_frame.jpg  (2614x4026 px)
+  WARN: relief script not at /mnt/c/Users/Roman/lesion-neus-facto-article/scripts/pipeline/v34_render_smoothed.py — skipping figure 3
+
+done. test4 figures in /mnt/c/Users/Roman/lesion-neus-facto-article/runs/test4
+
+=== gen_run_figures ===
+$ python -u /mnt/c/Users/Roman/lesion-neus-facto-article/scripts/helpers/gen_run_figures.py --name test4 --eval /home/roman/mini-mesh-eval/runs/v34_test4 --detected-aligned /home/roman/mini-mesh-eval/runs/v34_test4/eval_above_threshold/detected_aligned_mm.ply --gt /mnt/c/Users/Roman/Documents/blender/foot_with_veins/gt_export_v12/region_lesion_top_v12.ply

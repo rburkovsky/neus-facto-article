@@ -1,0 +1,72 @@
+/home/roman/miniforge3/envs/sam3/lib/python3.12/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Loading mesh...
+Loading BiRefNet + SAM 3.1...
+loaded /home/roman/.cache/huggingface/hub/models--facebook--sam3.1/snapshots/daa63191845a41281374e725f4c9e51c7a824460/sam3.1_multiplex.pt and found missing and/or unexpected keys:
+missing_keys=['backbone.vision_backbone.convs.3.conv_1x1.weight', 'backbone.vision_backbone.convs.3.conv_1x1.bias', 'backbone.vision_backbone.convs.3.conv_3x3.weight', 'backbone.vision_backbone.convs.3.conv_3x3.bias']
+
+Aggregating: 42 views remaining (no morph)
+  view 001: mask=57495px marked=50786 (4s)
+  view 002: mask=73134px marked=70811 (6s)
+  view 003: mask=96193px marked=100466 (9s)
+  view 004: mask=126274px marked=116240 (10s)
+  view 005: mask=150138px marked=130357 (12s)
+  view 006: mask=173369px marked=157988 (14s)
+  view 007: mask=152928px marked=221864 (15s)
+  view 008: mask=176704px marked=209034 (17s)
+  view 009: mask=171168px marked=176439 (18s)
+  view 010: mask=168056px marked=141588 (20s)
+  view 011: mask=172236px marked=112789 (22s)
+  view 012: mask=138602px marked=97111 (23s)
+  view 013: mask=50764px marked=71795 (25s)
+  view 014: mask=224791px marked=164145 (27s)
+  view 015: mask=51310px marked=96091 (29s)
+  view 016: mask=214515px marked=144811 (31s)
+  view 017: mask=66851px marked=133615 (34s)
+  view 018: mask=177830px marked=133963 (36s)
+  view 019: mask=74385px marked=162880 (37s)
+  view 020: mask=173067px marked=130443 (39s)
+  view 021: mask=76855px marked=176035 (41s)
+  view 022: mask=166944px marked=127855 (43s)
+  view 023: mask=90516px marked=201002 (44s)
+  view 024: mask=150099px marked=123145 (46s)
+  view 025: mask=140547px marked=203603 (47s)
+  view 026: mask=140259px marked=124851 (49s)
+  view 027: mask=244790px marked=177265 (51s)
+  view 028: mask=120591px marked=121514 (52s)
+  view 029: mask=239874px marked=153839 (54s)
+  view 030: mask=100104px marked=114032 (56s)
+  view 031: mask=232998px marked=162402 (58s)
+  view 032: mask=98494px marked=103836 (59s)
+  view 033: mask=231362px marked=170189 (61s)
+  view 034: mask=73272px marked=84099 (63s)
+  view 035: mask=176663px marked=178404 (65s)
+  view 036: mask=57772px marked=70835 (67s)
+  view 037: mask=162397px marked=181716 (69s)
+  view 038: mask=44245px marked=64613 (70s)
+  view 039: mask=34740px marked=58574 (72s)
+  view 040: mask=86070px marked=71412 (75s)
+  view 041: mask=121185px marked=79535 (78s)
+
+After aggregation: 106548 faces >= thresh 0.5
+  DBSCAN top-2 sizes: [96447, 8805, 1116, 90, 56]
+  candidate lesion (DBSCAN top-2): 105252 faces
+
+Rendering depth buffers...
+  view 000/42
+  view 010/42
+  view 020/42
+  view 030/42
+  view 040/42
+
+Final: 96447 lesion faces (dropped 8805 occluded)
+  area: 0.17165
+
+Side-by-side renders...
+  view 000/42
+  view 010/42
+  view 020/42
+  view 030/42
+  view 040/42
+
+Done -> /home/roman/mini-mesh-eval/runs/v34_test11/per_view_v34k_compare/

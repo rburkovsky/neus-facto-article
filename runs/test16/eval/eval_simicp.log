@@ -1,0 +1,19 @@
+Loading detected lesion from /home/roman/mini-mesh-eval/runs/v34_test16/lesion_binary_v34n.ply ...
+Traceback (most recent call last):
+  File "/mnt/c/Users/Roman/lesion-neus-facto-article/scripts/pipeline/evaluate_lesion_simicp.py", line 376, in <module>
+    main()
+  File "/mnt/c/Users/Roman/lesion-neus-facto-article/scripts/pipeline/evaluate_lesion_simicp.py", line 253, in main
+    det = extract_red_faces(args.detected)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Roman/lesion-neus-facto-article/scripts/pipeline/evaluate_lesion_simicp.py", line 32, in extract_red_faces
+    m = trimesh.load(ply_path, force="mesh", process=False)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roman/miniforge3/envs/sam3/lib/python3.12/site-packages/trimesh/exchange/load.py", line 111, in load
+    loaded = load_scene(
+             ^^^^^^^^^^^
+  File "/home/roman/miniforge3/envs/sam3/lib/python3.12/site-packages/trimesh/exchange/load.py", line 193, in load_scene
+    arg = _parse_file_args(
+          ^^^^^^^^^^^^^^^^^
+  File "/home/roman/miniforge3/envs/sam3/lib/python3.12/site-packages/trimesh/exchange/load.py", line 624, in _parse_file_args
+    raise ValueError(f"string is not a file: `{file_obj}`")
+ValueError: string is not a file: `/home/roman/mini-mesh-eval/runs/v34_test16/lesion_binary_v34n.ply`

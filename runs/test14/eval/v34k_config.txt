@@ -1,0 +1,2 @@
+config: TUNED
+args: --lab-l-min 30 --max-aspect-ratio 5.0 --min-solidity 0.7 --min-cc-px 6000 --max-top-y-frac 0.55 --no-two-stage --add-prompts dark brown spot; dark spot; black mark; wound; mole; dark patch

@@ -1,0 +1,37 @@
+/home/roman/miniforge3/envs/sam3/lib/python3.12/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Loading mesh + v34f checkpoint...
+  DBSCAN top-2 sizes: [12444, 3966, 1683, 909, 418]
+  candidate lesion (before visibility): 16410 faces, area 0.03944
+
+Rendering 82 face-ID buffers...
+  view 000/82  ever-visible: 679244 (1s)
+  view 010/82  ever-visible: 1955541 (9s)
+  view 020/82  ever-visible: 2361143 (19s)
+  view 030/82  ever-visible: 2854400 (28s)
+  view 040/82  ever-visible: 3121847 (36s)
+  view 050/82  ever-visible: 3192898 (44s)
+  view 060/82  ever-visible: 3215693 (55s)
+  view 070/82  ever-visible: 3238861 (63s)
+  view 080/82  ever-visible: 3266134 (72s)
+
+Total ever-visible: 3268221 / 4000000
+
+Lesion filtering:
+  before: 16410 faces / area 0.03944
+  after : 14643 faces / area 0.03649  (dropped 1767 hidden faces)
+
+Wrote /home/roman/mini-mesh-eval/runs/v34_test4/lesion_binary_v34g.ply
+
+Rendering per-view combined (clean+visible)...
+  view 000/82
+  view 010/82
+  view 020/82
+  view 030/82
+  view 040/82
+  view 050/82
+  view 060/82
+  view 070/82
+  view 080/82
+
+Done -> /home/roman/mini-mesh-eval/runs/v34_test4/per_view_v34g/

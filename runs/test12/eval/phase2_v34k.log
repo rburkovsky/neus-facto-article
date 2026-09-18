@@ -1,0 +1,144 @@
+/home/roman/miniforge3/envs/sam3/lib/python3.12/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Loading mesh...
+Loading BiRefNet + SAM 3.1...
+loaded /home/roman/.cache/huggingface/hub/models--facebook--sam3.1/snapshots/daa63191845a41281374e725f4c9e51c7a824460/sam3.1_multiplex.pt and found missing and/or unexpected keys:
+missing_keys=['backbone.vision_backbone.convs.3.conv_1x1.weight', 'backbone.vision_backbone.convs.3.conv_1x1.bias', 'backbone.vision_backbone.convs.3.conv_3x3.weight', 'backbone.vision_backbone.convs.3.conv_3x3.bias']
+
+Aggregating: 101 views remaining (no morph)
+  view 000: mask=74416px marked=60824 (3s)
+  view 001: mask=77811px marked=63551 (4s)
+  view 002: mask=71953px marked=64123 (6s)
+  view 003: mask=61674px marked=62931 (7s)
+  view 004: mask=50935px marked=59130 (9s)
+  view 005: mask=52065px marked=60608 (10s)
+  view 006: mask=54549px marked=62547 (12s)
+  view 007: mask=62016px marked=63937 (14s)
+  view 008: mask=67464px marked=64736 (15s)
+  view 009: mask=67500px marked=63334 (17s)
+  view 010: mask=75723px marked=61887 (18s)
+  view 011: mask=72447px marked=61521 (20s)
+  view 012: mask=170595px marked=112015 (22s)
+  view 013: mask=56497px marked=61429 (23s)
+  view 014: mask=222852px marked=139892 (24s)
+  view 015: mask=52393px marked=58140 (26s)
+  view 016: mask=54642px marked=57586 (28s)
+  view 017: mask=47025px marked=57050 (29s)
+  view 018: mask=42199px marked=63806 (31s)
+  view 019: mask=30633px marked=60580 (32s)
+  view 020: mask=20080px marked=42260 (34s)
+  view 021: mask=15111px marked=33859 (35s)
+  view 022: mask=11401px marked=28745 (37s)
+  view 023: mask=11920px marked=34403 (38s)
+  view 024: mask=13728px marked=53813 (40s)
+  view 025: mask=17811px marked=80404 (41s)
+  view 026: mask=22452px marked=74643 (43s)
+  view 027: mask=27359px marked=74533 (44s)
+  view 028: mask=30100px marked=75483 (46s)
+  view 029: mask=35808px marked=75195 (48s)
+  view 030: mask=21246px marked=37174 (49s)
+  view 031: mask=22444px marked=37819 (51s)
+  view 032: mask=25616px marked=41056 (53s)
+  view 033: mask=30885px marked=42740 (54s)
+  view 034: mask=34798px marked=44933 (56s)
+  view 035: mask=37352px marked=46180 (57s)
+  view 036: mask=42105px marked=49259 (59s)
+  view 037: mask=46508px marked=52851 (61s)
+  view 038: mask=482672px marked=236722 (62s)
+  view 039: mask=504386px marked=248477 (64s)
+  view 040: mask=476542px marked=238393 (65s)
+  view 041: mask=447703px marked=192832 (67s)
+  view 042: mask=33353px marked=47081 (69s)
+  view 043: mask=25211px marked=42073 (70s)
+  view 044: mask=28898px marked=44244 (72s)
+  view 045: mask=29959px marked=49727 (73s)
+  view 046: mask=36248px marked=45919 (75s)
+  view 047: mask=31818px marked=56522 (76s)
+  view 048: mask=53524px marked=52599 (78s)
+  view 049: mask=46441px marked=56170 (80s)
+  view 050: mask=64816px marked=56924 (82s)
+  view 051: mask=138483px marked=103806 (83s)
+  view 052: mask=79115px marked=56443 (85s)
+  view 053: mask=63807px marked=56166 (87s)
+  view 054: mask=81629px marked=56452 (88s)
+  view 055: mask=72509px marked=57777 (90s)
+  view 056: mask=88318px marked=61902 (91s)
+  view 057: mask=97970px marked=62369 (93s)
+  view 058: mask=81249px marked=64410 (95s)
+  view 059: mask=95058px marked=64142 (96s)
+  view 060: mask=75289px marked=62235 (98s)
+  view 061: mask=82973px marked=63451 (99s)
+  view 062: mask=75179px marked=64311 (101s)
+  view 063: mask=78337px marked=59778 (103s)
+  view 064: mask=66389px marked=63700 (104s)
+  view 065: mask=81793px marked=58366 (106s)
+  view 066: mask=67208px marked=60358 (107s)
+  view 067: mask=70037px marked=59798 (109s)
+  view 068: mask=65390px marked=58255 (110s)
+  view 069: mask=62551px marked=69422 (113s)
+  view 070: mask=68485px marked=58307 (114s)
+  view 071: mask=48347px marked=72029 (116s)
+  view 072: mask=47573px marked=61975 (117s)
+  view 073: mask=39492px marked=74519 (119s)
+  view 074: mask=42202px marked=57142 (120s)
+  view 075: mask=646012px marked=326085 (122s)
+  view 076: mask=45440px marked=57165 (123s)
+  view 077: mask=44055px marked=57108 (125s)
+  view 078: mask=39932px marked=59237 (126s)
+  view 079: mask=36527px marked=61961 (128s)
+  view 080: mask=30923px marked=62231 (129s)
+  view 081: mask=31202px marked=62545 (131s)
+  view 082: mask=34626px marked=62478 (132s)
+  view 083: mask=38889px marked=65385 (134s)
+  view 084: mask=40052px marked=67596 (136s)
+  view 085: mask=42048px marked=68024 (138s)
+  view 086: mask=45767px marked=57673 (139s)
+  view 087: mask=34498px marked=49715 (141s)
+  view 088: mask=35453px marked=55823 (142s)
+  view 089: mask=40677px marked=63751 (144s)
+  view 090: mask=40947px marked=58271 (146s)
+  view 091: mask=39742px marked=56887 (148s)
+  view 092: mask=34977px marked=56895 (149s)
+  view 093: mask=41331px marked=57124 (151s)
+  view 094: mask=45397px marked=57481 (152s)
+  view 095: mask=315447px marked=176230 (154s)
+  view 096: mask=254707px marked=142560 (155s)
+  view 097: mask=56849px marked=60103 (157s)
+  view 098: mask=58417px marked=62486 (158s)
+  view 099: mask=66311px marked=60966 (160s)
+  view 100: mask=400293px marked=185135 (161s)
+
+After aggregation: 57154 faces >= thresh 0.5
+  DBSCAN top-2 sizes: [57154]
+  candidate lesion (DBSCAN top-2): 57154 faces
+
+Rendering depth buffers...
+  view 000/101
+  view 010/101
+  view 020/101
+  view 030/101
+  view 040/101
+  view 050/101
+  view 060/101
+  view 070/101
+  view 080/101
+  view 090/101
+  view 100/101
+
+Final: 57154 lesion faces (dropped 0 occluded)
+  area: 0.06029
+
+Side-by-side renders...
+  view 000/101
+  view 010/101
+  view 020/101
+  view 030/101
+  view 040/101
+  view 050/101
+  view 060/101
+  view 070/101
+  view 080/101
+  view 090/101
+  view 100/101
+
+Done -> /home/roman/mini-mesh-eval/runs/v34_test12/per_view_v34k_compare/

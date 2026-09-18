@@ -1,0 +1,32 @@
+/home/roman/miniforge3/envs/sam3/lib/python3.12/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Loading mesh + v34k checkpoint at thresh=0.6...
+  14039 faces >= 0.6
+  DBSCAN top-2 sizes: [12246, 1773, 20]
+  candidate: 14019 faces
+
+Depth filter (82 views)...
+  view 000/82 (1s)
+  view 010/82 (7s)
+  view 020/82 (13s)
+  view 030/82 (18s)
+  view 040/82 (24s)
+  view 050/82 (32s)
+  view 060/82 (37s)
+  view 070/82 (43s)
+  view 080/82 (48s)
+
+Final: 12246 faces, area 0.03245
+
+Side-by-side renders...
+  view 000/82
+  view 010/82
+  view 020/82
+  view 030/82
+  view 040/82
+  view 050/82
+  view 060/82
+  view 070/82
+  view 080/82
+
+Done -> /home/roman/mini-mesh-eval/runs/v34_test4/per_view_v34m_compare/

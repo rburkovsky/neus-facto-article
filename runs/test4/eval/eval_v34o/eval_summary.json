@@ -1,0 +1,33 @@
+{
+  "detected_ply": "/home/roman/mini-mesh-eval/runs/v34_test4/lesion_binary_v34o.ply",
+  "gt_ply": "/mnt/c/Users/Roman/Documents/blender/foot_with_veins/gt_export_v12/region_lesion_top_v12.ply",
+  "approach1_shape_only": {
+    "approach": "1 - shape-only (equal-area)",
+    "A_det_recon_units2": 0.0322733726707737,
+    "A_gt_mm2": 814.1772348222818,
+    "scale_applied": 158.8317426971342,
+    "iou_voxel_0p3mm": 0.05880541871921182,
+    "xor_area_mm2_eq": 1447.478805962073,
+    "chamfer_mm_eq": 0.981169625248722,
+    "hausdorff_mm_eq": 3.6163514537144192,
+    "mean_det_to_gt_mm_eq": 0.9789286935122175,
+    "mean_gt_to_det_mm_eq": 0.9834105569852265,
+    "icp_fitness": 1.0,
+    "icp_rmse_mm_eq": 1.1797425938824355
+  },
+  "approach2_sim3_icp": {
+    "approach": "2 - sim(3)-ICP",
+    "s_icp": 1.7095183905107314,
+    "A_det_mm2": 0.09431741889649438,
+    "A_gt_mm2": 814.1772348222818,
+    "area_diff_mm2": -814.0829174033853,
+    "area_pct_err": -99.98841561580667,
+    "iou_voxel_0p3mm": 0.00033049657109807487,
+    "chamfer_mm": 5.190006210279882,
+    "hausdorff_mm": 16.77249498923954,
+    "mean_det_to_gt_mm": 0.05947835405131177,
+    "mean_gt_to_det_mm": 10.320534066508452,
+    "icp_fitness": 1.0,
+    "icp_rmse_mm": 0.0646682880136433
+  }
+}

@@ -1,0 +1,30 @@
+/home/roman/miniforge3/envs/sam3/lib/python3.12/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Loading mesh...
+Loading BiRefNet + SAM 3.1...
+loaded /home/roman/.cache/huggingface/hub/models--facebook--sam3.1/snapshots/daa63191845a41281374e725f4c9e51c7a824460/sam3.1_multiplex.pt and found missing and/or unexpected keys:
+missing_keys=['backbone.vision_backbone.convs.3.conv_1x1.weight', 'backbone.vision_backbone.convs.3.conv_1x1.bias', 'backbone.vision_backbone.convs.3.conv_3x3.weight', 'backbone.vision_backbone.convs.3.conv_3x3.bias']
+
+Aggregating: 48 views remaining (no morph)
+
+After aggregation: 0 faces >= thresh 0.5
+Traceback (most recent call last):
+  File "/mnt/c/Users/Roman/lesion-neus-facto-article/scripts/pipeline/v34k_nomorph_t05.py", line 419, in <module>
+    main()
+  File "/mnt/c/Users/Roman/lesion-neus-facto-article/scripts/pipeline/v34k_nomorph_t05.py", line 255, in main
+    lab = DBSCAN(eps=eps, min_samples=10).fit_predict(face_centroids[above_idx])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roman/miniforge3/envs/sam3/lib/python3.12/site-packages/sklearn/cluster/_dbscan.py", line 505, in fit_predict
+    self.fit(X, sample_weight=sample_weight)
+  File "/home/roman/miniforge3/envs/sam3/lib/python3.12/site-packages/sklearn/base.py", line 1403, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roman/miniforge3/envs/sam3/lib/python3.12/site-packages/sklearn/cluster/_dbscan.py", line 422, in fit
+    X = validate_data(self, X, accept_sparse="csr")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roman/miniforge3/envs/sam3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 3038, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roman/miniforge3/envs/sam3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1110, in check_array
+    raise ValueError(
+ValueError: Found array with 0 sample(s) (shape=(0, 3)) while a minimum of 1 is required by DBSCAN.

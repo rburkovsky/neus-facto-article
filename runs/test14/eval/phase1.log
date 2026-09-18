@@ -1,0 +1,23 @@
+Loading mesh + texture from /home/roman/mini-mesh-runs/test14-fixed-neus-facto-80k-bias0p5-eik0p5-MAX-3090norway...
+  999999 faces (base mesh, no subdiv)
+  87 COLMAP poses; render res 3072x4096
+  rendered 000/87  (1s)
+  rendered 005/87  (3s)
+  rendered 010/87  (6s)
+  rendered 015/87  (8s)
+  rendered 020/87  (11s)
+  rendered 025/87  (14s)
+  rendered 030/87  (17s)
+  rendered 035/87  (20s)
+  rendered 040/87  (22s)
+  rendered 045/87  (25s)
+  rendered 050/87  (27s)
+  rendered 055/87  (30s)
+  rendered 060/87  (33s)
+  rendered 065/87  (35s)
+  rendered 070/87  (38s)
+  rendered 075/87  (41s)
+  rendered 080/87  (43s)
+  rendered 085/87  (46s)
+
+Done: 87/87 renders -> /home/roman/mini-mesh-eval/runs/v34_test14/renders/

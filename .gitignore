@@ -1,0 +1,11 @@
+runs/**/eval/_probe_*/
+runs/**/eval/_probe_*
+temp/
+
+/*
+!/runs/
+!/figures/
+!/README.md
+!/.gitignore
+!/.gitattributes
+!/MDPI article_en.docx

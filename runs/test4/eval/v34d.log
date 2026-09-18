@@ -1,0 +1,27 @@
+/home/roman/miniforge3/envs/sam3/lib/python3.12/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Loading mesh + checkpoint...
+  auto eps = 0.00823 (= 8x median face-spacing)
+
+Trying thresholds: [0.3, 0.25, 0.2, 0.15, 0.1]
+  thresh    n_above   n_clusters    largest       area
+   0.300      19698            2      12442    0.03274  (sizes [12442, 64])
+   0.250      21572            2      12474    0.03278  (sizes [12474, 13])
+   0.200      24143            2      12532    0.03287  (sizes [12532, 15])
+   0.150      28956            2      12606    0.03298  (sizes [12606, 2954])
+   0.100      34133            2      12698    0.03312  (sizes [12698, 15])
+
+Pick a threshold to render against the renders. Default: lowest where size keeps growing meaningfully.
+
+Rendering per-view combined at thresh=0.15 (top-2 clusters) ...
+  view 000/82
+  view 010/82
+  view 020/82
+  view 030/82
+  view 040/82
+  view 050/82
+  view 060/82
+  view 070/82
+  view 080/82
+
+Done -> /home/roman/mini-mesh-eval/runs/v34_test4/per_view_combined_t0p15_top2/

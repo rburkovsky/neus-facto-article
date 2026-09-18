@@ -1,0 +1,6 @@
+{
+  "approach": "subdiv=2 + saved masks + DBSCAN top-2 + depth-occlusion filter",
+  "score_thresh": 0.9,
+  "n_lesion_faces": 154927,
+  "area_recon_units2": 0.05100701518734234
+}

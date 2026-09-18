@@ -1,0 +1,20 @@
+=== test6 article-grade config (locked in) ===
+
+SAM segmentation (run_sam_per_view.py): TIGHT preset (already correct, no change)
+  --lab-l-min 35 --lab-a-min 130 --max-mask-frac 0.25 --no-two-stage
+
+Aggregation (aggregate_lesion_mesh.py):
+  --score-thresh 0.9 --vis-thresh 0.3
+
+Sim(3)-ICP evaluation (evaluate_lesion_simicp.py):
+  --pca-init      <-- CRITICAL (was scale-collapsing without)
+
+Final metrics:
+  AD     = 0.122 mm  (best of all 11 runs)
+  HD     = 0.748 mm
+  HD90   = 0.194 mm
+  area   = 832.0 mm² (GT 814.2, diff +2.19%)
+  F1@0.3 = ~99.5% (see metrics.json)
+  NC     = 0.985
+  scale_recon_to_mm = 64.03 (init 63.34, ratio 1.011)
+  PCA-init mean NN distance: 0.144 mm

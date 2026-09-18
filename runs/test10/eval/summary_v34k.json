@@ -1,0 +1,6 @@
+{
+  "approach": "v34k = re-aggregate w/o morph + thresh 0.5 + DBSCAN top-2 + depth occ filter",
+  "score_thresh": 0.5,
+  "n_lesion_faces": 70644,
+  "area": 0.11704756715280591
+}

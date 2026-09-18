@@ -1,0 +1,26 @@
+Loading + subdividing mesh to subdiv=2...
+  16000000 faces (subdiv=2)
+
+Re-aggregating at subdiv=2 (51 views remaining)
+
+0 faces >= 0.9
+Traceback (most recent call last):
+  File "/mnt/c/Users/Roman/lesion-neus-facto-article/scripts/pipeline/v34n_subdiv2.py", line 313, in <module>
+    main()
+  File "/mnt/c/Users/Roman/lesion-neus-facto-article/scripts/pipeline/v34n_subdiv2.py", line 155, in main
+    lab = DBSCAN(eps=eps, min_samples=10).fit_predict(face_centroids[above_idx])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roman/miniforge3/envs/sam3/lib/python3.12/site-packages/sklearn/cluster/_dbscan.py", line 505, in fit_predict
+    self.fit(X, sample_weight=sample_weight)
+  File "/home/roman/miniforge3/envs/sam3/lib/python3.12/site-packages/sklearn/base.py", line 1403, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roman/miniforge3/envs/sam3/lib/python3.12/site-packages/sklearn/cluster/_dbscan.py", line 422, in fit
+    X = validate_data(self, X, accept_sparse="csr")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roman/miniforge3/envs/sam3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 3038, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roman/miniforge3/envs/sam3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1110, in check_array
+    raise ValueError(
+ValueError: Found array with 0 sample(s) (shape=(0, 3)) while a minimum of 1 is required by DBSCAN.

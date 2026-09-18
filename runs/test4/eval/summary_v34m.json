@@ -1,0 +1,6 @@
+{
+  "approach": "v34m = re-threshold v34k at 0.6 + DBSCAN + depth filter",
+  "score_thresh": 0.6,
+  "n_lesion_faces": 12246,
+  "area": 0.032454733566079766
+}

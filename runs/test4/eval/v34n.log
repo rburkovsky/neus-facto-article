@@ -1,0 +1,117 @@
+/home/roman/miniforge3/envs/sam3/lib/python3.12/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Loading + subdividing mesh to subdiv=2...
+  16000000 faces (subdiv=2)
+
+Re-aggregating at subdiv=2 (82 views remaining)
+  view 000/82  mask=20264px (1s)
+  view 001/82  mask=22548px (3s)
+  view 002/82  mask=23902px (4s)
+  view 003/82  mask=24785px (8s)
+  view 004/82  mask=23529px (9s)
+  view 005/82  mask=23505px (11s)
+  view 006/82  mask=21384px (12s)
+  view 007/82  mask=20193px (14s)
+  view 008/82  mask=18026px (15s)
+  view 009/82  mask=15642px (16s)
+  view 010/82  mask=13418px (18s)
+  view 011/82  mask=11556px (20s)
+  view 012/82  mask=9440px (21s)
+  view 013/82  mask=7213px (22s)
+  view 014/82  mask=5121px (24s)
+  view 016/82  mask=7099px (25s)
+  view 017/82  mask=8543px (27s)
+  view 018/82  mask=8548px (28s)
+  view 019/82  mask=9425px (29s)
+  view 020/82  mask=11531px (31s)
+  view 021/82  mask=12987px (32s)
+  view 022/82  mask=14148px (34s)
+  view 023/82  mask=38926px (35s)
+  view 024/82  mask=37230px (37s)
+  view 025/82  mask=36677px (41s)
+  view 026/82  mask=36093px (42s)
+  view 027/82  mask=34648px (44s)
+  view 028/82  mask=19133px (45s)
+  view 029/82  mask=57486px (46s)
+  view 030/82  mask=16218px (48s)
+  view 031/82  mask=51415px (49s)
+  view 032/82  mask=11627px (50s)
+  view 033/82  mask=49359px (52s)
+  view 034/82  mask=9075px (53s)
+  view 035/82  mask=47543px (55s)
+  view 036/82  mask=5922px (56s)
+  view 037/82  mask=44548px (58s)
+  view 038/82  mask=4123px (59s)
+  view 039/82  mask=37846px (61s)
+  view 040/82  mask=5975px (62s)
+  view 041/82  mask=33176px (63s)
+  view 042/82  mask=7184px (65s)
+  view 043/82  mask=29000px (66s)
+  view 044/82  mask=9271px (68s)
+  view 045/82  mask=19462px (69s)
+  view 046/82  mask=12716px (73s)
+  view 047/82  mask=16341px (75s)
+  view 048/82  mask=38963px (76s)
+  view 049/82  mask=80392px (78s)
+  view 050/82  mask=36069px (79s)
+  view 051/82  mask=62973px (80s)
+  view 052/82  mask=34962px (82s)
+  view 053/82  mask=61028px (83s)
+  view 054/82  mask=32913px (85s)
+  view 055/82  mask=58665px (86s)
+  view 056/82  mask=32263px (87s)
+  view 057/82  mask=52400px (89s)
+  view 058/82  mask=27503px (90s)
+  view 059/82  mask=51021px (92s)
+  view 060/82  mask=24349px (93s)
+  view 061/82  mask=48774px (94s)
+  view 062/82  mask=18679px (96s)
+  view 063/82  mask=41452px (98s)
+  view 064/82  mask=15003px (100s)
+  view 065/82  mask=31488px (101s)
+  view 066/82  mask=12210px (102s)
+  view 067/82  mask=29664px (106s)
+  view 068/82  mask=11027px (108s)
+  view 069/82  mask=19886px (109s)
+  view 070/82  mask=9678px (111s)
+  view 071/82  mask=17387px (112s)
+  view 072/82  mask=8875px (114s)
+  view 073/82  mask=15194px (115s)
+  view 074/82  mask=12545px (116s)
+  view 075/82  mask=33075px (118s)
+  view 076/82  mask=31142px (119s)
+  view 077/82  mask=27341px (121s)
+  view 078/82  mask=24462px (122s)
+  view 079/82  mask=21812px (124s)
+  view 080/82  mask=20035px (125s)
+  view 081/82  mask=17272px (126s)
+
+59991 faces >= 0.5
+  DBSCAN top-2: [49273, 5538, 4616, 382, 131]
+  candidate: 54811 faces
+
+Depth filter (82 views)...
+  view 000/82 (7s)
+  view 010/82 (27s)
+  view 020/82 (42s)
+  view 030/82 (60s)
+  view 040/82 (76s)
+  view 050/82 (94s)
+  view 060/82 (109s)
+  view 070/82 (128s)
+  view 080/82 (145s)
+
+Final: 49273 faces, area 0.03256
+
+Side-by-side renders...
+  view 000/82
+  view 010/82
+  view 020/82
+  view 030/82
+  view 040/82
+  view 050/82
+  view 060/82
+  view 070/82
+  view 080/82
+
+Done -> /home/roman/mini-mesh-eval/runs/v34_test4/per_view_v34n_compare/

@@ -1,0 +1,121 @@
+Loading + subdividing mesh to subdiv=2...
+  15999984 faces (subdiv=2)
+
+Re-aggregating at subdiv=2 (87 views remaining)
+  view 000/87  mask=55008px (1s)
+  view 001/87  mask=55026px (3s)
+  view 002/87  mask=60242px (6s)
+  view 003/87  mask=63132px (7s)
+  view 004/87  mask=71244px (9s)
+  view 005/87  mask=70578px (11s)
+  view 006/87  mask=78321px (13s)
+  view 007/87  mask=90928px (14s)
+  view 008/87  mask=120027px (16s)
+  view 009/87  mask=147637px (18s)
+  view 010/87  mask=394285px (19s)
+  view 011/87  mask=558281px (21s)
+  view 012/87  mask=59948px (23s)
+  view 013/87  mask=55521px (24s)
+  view 014/87  mask=60742px (26s)
+  view 015/87  mask=49962px (27s)
+  view 016/87  mask=48982px (29s)
+  view 017/87  mask=123682px (30s)
+  view 018/87  mask=35907px (32s)
+  view 019/87  mask=25287px (34s)
+  view 020/87  mask=21418px (35s)
+  view 021/87  mask=28466px (37s)
+  view 022/87  mask=37277px (39s)
+  view 023/87  mask=38011px (41s)
+  view 024/87  mask=39546px (43s)
+  view 025/87  mask=39025px (44s)
+  view 026/87  mask=40149px (46s)
+  view 027/87  mask=44871px (47s)
+  view 028/87  mask=64777px (49s)
+  view 029/87  mask=403005px (50s)
+  view 030/87  mask=62946px (52s)
+  view 031/87  mask=388156px (53s)
+  view 032/87  mask=59269px (55s)
+  view 033/87  mask=361279px (57s)
+  view 034/87  mask=74762px (58s)
+  view 035/87  mask=352921px (60s)
+  view 036/87  mask=75852px (62s)
+  view 037/87  mask=301657px (63s)
+  view 038/87  mask=119203px (65s)
+  view 039/87  mask=252166px (66s)
+  view 040/87  mask=42726px (68s)
+  view 041/87  mask=216530px (69s)
+  view 042/87  mask=41651px (72s)
+  view 043/87  mask=176156px (73s)
+  view 044/87  mask=33862px (75s)
+  view 045/87  mask=145426px (76s)
+  view 046/87  mask=32186px (78s)
+  view 047/87  mask=142452px (80s)
+  view 048/87  mask=31674px (81s)
+  view 049/87  mask=22874px (83s)
+  view 050/87  mask=27905px (84s)
+  view 051/87  mask=17023px (85s)
+  view 052/87  mask=38381px (87s)
+  view 053/87  mask=14085px (89s)
+  view 054/87  mask=38956px (90s)
+  view 055/87  mask=12180px (92s)
+  view 056/87  mask=37976px (93s)
+  view 057/87  mask=9713px (95s)
+  view 058/87  mask=63169px (96s)
+  view 059/87  mask=52968px (98s)
+  view 060/87  mask=74973px (99s)
+  view 061/87  mask=64887px (101s)
+  view 062/87  mask=83559px (102s)
+  view 063/87  mask=77977px (105s)
+  view 064/87  mask=91399px (107s)
+  view 065/87  mask=81274px (108s)
+  view 066/87  mask=90629px (110s)
+  view 067/87  mask=75990px (112s)
+  view 068/87  mask=80698px (113s)
+  view 069/87  mask=164403px (115s)
+  view 070/87  mask=93238px (116s)
+  view 071/87  mask=214186px (118s)
+  view 072/87  mask=87457px (120s)
+  view 073/87  mask=279535px (121s)
+  view 074/87  mask=65325px (123s)
+  view 075/87  mask=388724px (124s)
+  view 076/87  mask=50717px (125s)
+  view 077/87  mask=38506px (127s)
+  view 078/87  mask=42406px (128s)
+  view 079/87  mask=42212px (130s)
+  view 080/87  mask=37013px (131s)
+  view 081/87  mask=44215px (133s)
+  view 082/87  mask=26595px (134s)
+  view 083/87  mask=45165px (136s)
+  view 084/87  mask=15201px (139s)
+  view 085/87  mask=60004px (141s)
+  view 086/87  mask=52487px (143s)
+
+1040 faces >= 0.9
+  DBSCAN top-2: [944, 80, 16]
+  candidate: 1024 faces
+
+Depth filter (87 views)...
+  view 000/87 (10s)
+  view 010/87 (25s)
+  view 020/87 (41s)
+  view 030/87 (55s)
+  view 040/87 (70s)
+  view 050/87 (84s)
+  view 060/87 (99s)
+  view 070/87 (114s)
+  view 080/87 (129s)
+
+Final: 1024 faces, area 0.00028
+
+Side-by-side renders...
+  view 000/87
+  view 010/87
+  view 020/87
+  view 030/87
+  view 040/87
+  view 050/87
+  view 060/87
+  view 070/87
+  view 080/87
+
+Done -> /home/roman/mini-mesh-eval/runs/v34_test14/per_view_v34n_compare/

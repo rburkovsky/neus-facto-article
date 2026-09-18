@@ -1,0 +1,2 @@
+config: DEFAULTS+top_y
+args: --max-top-y-frac 0.55

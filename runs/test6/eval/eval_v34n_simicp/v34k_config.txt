@@ -1,0 +1,2 @@
+config: KNOWN-GOOD reverted
+args: --lab-l-min 35 --lab-a-min 130 --max-mask-frac 0.25 --no-two-stage
